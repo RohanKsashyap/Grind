@@ -1,0 +1,37 @@
+/* Global styles to set the salmon background and center the content */
+.logout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fa8072; /* Salmon color */
+  }
+  
+  .logout-form {
+    background-color: white; /* White background for the form */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-form h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .logout-button {
+    background-color: #fa8072; /* Salmon color for the button */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #e67363; /* Slightly darker salmon on hover */
+  }
+  
